@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallnotary-us-sdk",
+  "version": "1.0.0",
+  "description": "fallnotary-us SDK · sovereign single-file library extracted from fallnotary-us/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallnotary-us", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallnotary-us-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallnotary-us-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
